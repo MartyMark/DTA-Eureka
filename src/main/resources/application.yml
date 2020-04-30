@@ -1,0 +1,10 @@
+server:
+   port: 8761
+
+#Deaktivieren die Möglichkeit zur Replikation zwischen mehreren Eureka-Servern im Standalone-Modus
+eureka:
+   client:
+      register-with-eureka: false
+      fetch-registry: false
+      healthcheck:
+         enabled: true
