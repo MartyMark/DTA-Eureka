@@ -12,7 +12,7 @@
   <name>DTA-Eureka</name>
   
   <properties>
-		<java.version>12</java.version>
+		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR1</spring-cloud.version>
   </properties>
   <dependencies>
